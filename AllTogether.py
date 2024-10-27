@@ -6,7 +6,7 @@ print("Old List", my_list)
 
 i = 0
 while i < len(my_list):
-    if my_list(i) % 2 == 0:
+    if my_list[i] % 2 == 0:
         my_list.pop(i)
     else:
         i += 1
